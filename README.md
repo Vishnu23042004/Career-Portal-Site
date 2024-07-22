@@ -1,12 +1,18 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # Career-Portal-Site
->>>>>>> 7cdc08fb1d9474ed08833d91480741b189df374b
+* Job Board application using React and Rapidapi JSearch allows users to search, filter and view job listings posted on LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others in a single job board.
+* Users can search for jobs by keyword, filter jobs by location or category and see detailed job descriptions when they click on a job listing.
+
+# Pre-requisites and Technologies used
+* Node js and Node package manager (npm)
+* React
+* Axios (for making Rapid API JSearch API requests)
+* Tailwind CSS
+
+This react application is created using Vite along with the some dependencies. Install them by the command:
+* npm install axios html-react-parser react-icons react-paginate react-router-dom
+
+Install Tailwind using:
+* npm install -D tailwindcss postcss autoprefixer
+* npx tailwindcss init -p
+
+Finally, run ' npm run build ' to deploy and ' npm run dev ' to run the application.
